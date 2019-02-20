@@ -22,7 +22,7 @@ void set_animation_config(AnimationClip *anim, Vector2 *v, int size, int vel, in
 }
 
 void animate(AnimationClip anim){
-	struct timespec tim, tim2;;
+	struct timespec tim, tim2;
 	tim.tv_sec  = 0;
 	tim.tv_nsec = 500000000L;
 	system("CLS");
